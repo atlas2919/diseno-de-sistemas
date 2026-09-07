@@ -11,7 +11,6 @@ psets/pset-01/
 ├── 01-requerimientos.pdf
 ├── 02-modelo-dominio.pdf
 ├── 03-casos-de-uso.pdf
-├── 04-flujos-casos-de-uso.pdf
 └── implementacion/
     ├── *.py
     ├── simulacion.py
