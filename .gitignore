@@ -1,2 +1,3 @@
 ﻿__pycache__/
 *.pyc
+.venv/ # si no está ya, para no subir el venv a GitHub
