@@ -1,5 +1,6 @@
 from singleton import GestorDeConfiguracion, reserva_permitida
 
+## funcion que siempre se ejecuta primero antes de cada prueba
 def setup_function():
     GestorDeConfiguracion._objeto = None
 
@@ -15,4 +16,4 @@ def test_reserva_aceptada():
     config = GestorDeConfiguracion.obtener_objeto()
     assert reserva_permitida(config) is True
     
-## Falla porque el primer test modifica el objeto compartido y no lo devuelve al estado original
+## Falla porque el primer test modifica el objeto compartido y no lo devuelve al estado original, solucion agregar el setup_function para resetear el objeto
