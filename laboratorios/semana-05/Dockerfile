@@ -10,4 +10,4 @@ COPY . .
 
 # CMD ["pytest", "test_singleton.py"]
 
-CMD ["python", "reservas.py"]
+CMD ["python", "builder.py"]
